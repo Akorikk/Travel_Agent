@@ -25,4 +25,4 @@ def tavily_search(query):
     return "\n\n".join(results)
 
 
-    
+     
