@@ -1,4 +1,6 @@
-from tools.tavily_tool import tavily_search
-from tools.flight_tool import search_flights
-from backend import run_travel_agent
+import asyncio 
+from mcp_Client import get_all_tools
 
+
+if __name__ == "__main__":
+    asyncio.run(get_all_tools())
